@@ -33,7 +33,7 @@
 │  │ 6. Embedding generator      │         │ 6. Personalize for community     │   │
 │  │ 7. Vector DB router         │         │ 7. Send email response           │   │
 │  └──────────────┬──────────────┘         └──────────────┬───────────────────┘   │
-│                 │                                        │                      │
+│                 │                                       │                       │
 │  ┌──────────────▼──────────────┐         ┌──────────────▼───────────────────┐   │
 │  │  Community Classifier       │         │     AI Agent Selector            │   │
 │  │  • Comunidad ID             │         │  • Detect community from email   │   │
