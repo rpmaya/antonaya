@@ -148,17 +148,4 @@
 
 **DURACIÓN TOTAL: 12 SEMANAS (3 MESES)**
 
----
 
-### Recomendaciones
-1. Comenzar con MVP enfocado en casos de uso específicos
-2. Implementar métricas desde el día 1
-3. Plan de entrenamiento continuo del modelo
-4. Escalamiento gradual del volumen
-
-2. **Definición detallada de requerimientos**
-3. **Firma de contrato y NDAs**
-4. **Kick-off del proyecto**
-5. **Sprints semanales con demos**
-
-**Validez de la propuesta: 30 días**
