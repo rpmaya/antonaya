@@ -35,7 +35,7 @@
 │  └──────────────┬──────────────┘         └──────────────┬───────────────────┘   │
 │                 │                                       │                       │
 │  ┌──────────────▼──────────────┐         ┌──────────────▼───────────────────┐   │
-│  │  Community Classifier       │         │     AI Agent Selector            │   │
+│  │  Community Classifier       │         │  AI Agent Selector               │   │
 │  │  • Comunidad ID             │         │  • Detect community from email   │   │
 │  │  • Document type            │         │  • Load specific context         │   │
 │  │  • Access permissions       │         │  • Apply community rules         │   │
