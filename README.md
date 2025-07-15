@@ -5,7 +5,7 @@
 
 ## 1. ARQUITECTURA DEL SISTEMA
 
-### Diagrama de Arquitectura Mejorado
+### Diagrama de Arquitectura 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
