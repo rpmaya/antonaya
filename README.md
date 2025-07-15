@@ -112,6 +112,13 @@
 │                                                                                 │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
+## CARACTERÍSTICAS CLAVE
 
+1. **Multi-tenancy completo**: Cada comunidad tiene su propio espacio aislado
+2. **Conocimiento compartido**: Base general + específica por comunidad
+3. **Detección automática**: Identifica la comunidad del email entrante
+4. **Personalización**: Respuestas adaptadas a cada comunidad
+5. **Control de acceso**: Empleados solo acceden a comunidades autorizadas
+6. **Trazabilidad**: Log completo de todas las interacciones
 
 
