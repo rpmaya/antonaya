@@ -111,21 +111,7 @@
 
 ---
 
-## 3. PROPUESTA ECONÓMICA
 
-### 3.1 Costos de Desarrollo (One-time)
-
-| Componente | Horas | Tarifa/hora | Costo Total |
-|------------|-------|-------------|-------------|
-| **Análisis y Diseño** | 40 | €80 | €3,200 |
-| **Desarrollo n8n Workflows** | 120 | €80 | €9,600 |
-| **Integración APIs Email** | 60 | €80 | €4,800 |
-| **Implementación IA/RAG** | 100 | €90 | €9,000 |
-| **Base de Conocimiento** | 80 | €80 | €6,400 |
-| **Testing y QA** | 60 | €70 | €4,200 |
-| **Documentación** | 30 | €60 | €1,800 |
-| **Deployment y DevOps** | 40 | €85 | €3,400 |
-| **SUBTOTAL DESARROLLO** | **530 horas** | | **€42,400** |
 
 ### 3.2 Infraestructura y Licencias (Mensual)
 
@@ -139,31 +125,17 @@
 | **Backup & Storage** | €50 | |
 | **TOTAL MENSUAL** | **€1,170-2,670** | |
 
-### 3.3 Mantenimiento y Soporte (Mensual)
 
-| Servicio | Horas/mes | Tarifa | Costo |
-|----------|-----------|--------|-------|
-| **Soporte L1** | 10 | €50 | €500 |
-| **Mantenimiento** | 20 | €70 | €1,400 |
-| **Actualizaciones** | 10 | €80 | €800 |
-| **TOTAL SOPORTE** | **40** | | **€2,700** |
-
----
 
 ## 4. CRONOGRAMA DE IMPLEMENTACIÓN
 
-### Fase 1: Análisis y Diseño (2 semanas)
-- Análisis de requerimientos detallado
-- Diseño de arquitectura final
-- Selección de tecnologías
-- Plan de proyecto detallado
 
-### Fase 2: Desarrollo Core (6 semanas)
+### Fase 1: Desarrollo Core (6 semanas)
 - **Semana 1-2**: Setup n8n, integraciones email
 - **Semana 3-4**: Implementación procesamiento IA
 - **Semana 5-6**: Base de conocimiento y RAG
 
-### Fase 3: Integraciones y Testing (3 semanas)
+### Fase 2: Integraciones y Testing (3 semanas)
 - **Semana 7**: Integraciones completas
 - **Semana 8-9**: Testing exhaustivo y ajustes
 
@@ -178,36 +150,12 @@
 
 ---
 
-## 5. RESUMEN EJECUTIVO
-
-### Inversión Total
-- **Desarrollo inicial**: €42,400
-- **Primer año operación**: €14,040 - €32,040
-- **Mantenimiento anual**: €32,400
-
-### ROI Esperado
-- Reducción 80% tiempo respuesta emails
-- Ahorro 3-4 FTE en atención al cliente
-- Mejora 60% satisfacción del cliente
-- Escalabilidad ilimitada
-
-### Riesgos y Mitigaciones
-1. **Costos API variables**: Implementar caché agresivo
-2. **Calidad respuestas**: Sistema de review humano inicial
-3. **Privacidad datos**: Cumplimiento GDPR estricto
-4. **Dependencia proveedores**: Multi-provider strategy
-
 ### Recomendaciones
 1. Comenzar con MVP enfocado en casos de uso específicos
 2. Implementar métricas desde el día 1
 3. Plan de entrenamiento continuo del modelo
 4. Escalamiento gradual del volumen
 
----
-
-## 6. PRÓXIMOS PASOS
-
-1. **Aprobación de propuesta**
 2. **Definición detallada de requerimientos**
 3. **Firma de contrato y NDAs**
 4. **Kick-off del proyecto**
