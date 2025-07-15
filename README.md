@@ -1,5 +1,4 @@
 # Antonaya
-## Propuesta Técnica
 
 ## DIAGRAMA DE ARQUITECTURA
 
