@@ -22,11 +22,13 @@
 ├─ Auditoría de accesos y modificaciones: 1 día
 └─ Encriptación de documentos sensibles: 1 día
    Subtotal: 4 días
-```
+
 📊 TOTAL PORTAL ADMINISTRACIÓN: 15 días
+```
 
-2️⃣ ORQUESTADOR N8N - WORKFLOWS CORE
 
+# 2️⃣ ORQUESTADOR N8N - WORKFLOWS CORE
+```
 📤 Workflow Procesamiento de Documentos
 ├─ Webhook receptor con validación de origen: 1 día
 ├─ Pipeline de extracción de texto (OCR incluido): 2 días
@@ -53,9 +55,10 @@
    Subtotal: 7 días
 
 📊 TOTAL ORQUESTADOR N8N: 23 días
+```
 
-3️⃣ BASE DE CONOCIMIENTO Y VECTOR DB
-
+# 3️⃣ BASE DE CONOCIMIENTO Y VECTOR DB
+```
 🗂️ Arquitectura Multi-Tenant
 ├─ Diseño de namespaces y estructura de datos: 2 días
 ├─ Sistema de particionado y sharding: 1 día
@@ -78,10 +81,10 @@
    Subtotal: 4 días
 
 📊 TOTAL BASE DE CONOCIMIENTO: 16 días
+```
 
-
-4️⃣ AGENTES IA - SISTEMA INTELIGENTE
-
+# 4️⃣ AGENTES IA - SISTEMA INTELIGENTE
+```
 🤖 Configuración Base
 ├─ Setup agente general con fallbacks: 2 días
 ├─ Sistema de contexto dinámico: 2 días
@@ -104,10 +107,10 @@
    Subtotal: 6 días
 
 📊 TOTAL AGENTES IA: 18 días
+```
 
-
-5️⃣ CAPA DE COMUNICACIÓN
-
+# 5️⃣ CAPA DE COMUNICACIÓN
+```
 📬 Integración Email Multicanal
 ├─ Gmail API con OAuth2: 1 día
 ├─ IMAP/SMTP genérico con TLS: 1 día
@@ -130,10 +133,10 @@
    Subtotal: 5 días
 
 📊 TOTAL COMUNICACIÓN: 13 días
+```
 
-
-6️⃣ TESTING, DEPLOYMENT Y GESTIÓN
-
+# 6️⃣ TESTING, DEPLOYMENT Y GESTIÓN
+```
 🧪 Testing Exhaustivo
 ├─ Tests unitarios componentes core: 2 días
 ├─ Tests de integración n8n workflows: 2 días
@@ -166,8 +169,10 @@
    Subtotal: 7 días
 
 📊 TOTAL TESTING Y GESTIÓN: 32 días
+```
 
-📊 RESUMEN
+# 📊 RESUMEN
+```
 ╔═══════════════════════════════════════════════════════════╗
 ║                    RESUMEN POR MÓDULOS                    ║
 ╠═══════════════════════════════════════════════════════════╣
@@ -182,3 +187,4 @@
 ║ DURACIÓN CON 2 DESARROLLADORES             ~60 días       ║
 ║ DURACIÓN CALENDARIO (con margen)           3-4 meses      ║
 ╚═══════════════════════════════════════════════════════════╝
+```
