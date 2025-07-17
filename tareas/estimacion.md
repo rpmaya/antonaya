@@ -26,7 +26,6 @@
 📊 TOTAL PORTAL ADMINISTRACIÓN: 15 días
 ```
 
-
 # 2️⃣ ORQUESTADOR N8N - WORKFLOWS CORE
 ```
 📤 Workflow Procesamiento de Documentos
@@ -34,7 +33,7 @@
 ├─ Pipeline de extracción de texto (OCR incluido): 2 días
 ├─ Sistema de chunking inteligente adaptativo: 2 días
 ├─ Generación de embeddings con fallback: 1 día
-├─ Enriquecimiento de metadata y clasificación: 1 día
+├─ Enriquecimiento de metadatos y clasificación: 1 día
 └─ Gestión de errores y reintentos: 1 día
    Subtotal: 8 días
 
@@ -50,8 +49,8 @@
 🔗 Integraciones y Conectores
 ├─ Integración Vector DB (Pinecone/Weaviate): 2 días
 ├─ Conectores con LLMs (OpenAI, Claude, Gemini): 2 días
-├─ Integración con sistemas externos (CRM, ERP): 2 días
-└─ APIs REST para terceros: 1 día
+├─ Integración con sistemas externos (CRM, ERP): 2 días (opcional)
+└─ APIs REST para terceros: 1 día (opcional)
    Subtotal: 7 días
 
 📊 TOTAL ORQUESTADOR N8N: 23 días
@@ -113,8 +112,8 @@
 ```
 📬 Integración Email Multicanal
 ├─ Gmail API con OAuth2: 1 día
-├─ IMAP/SMTP genérico con TLS: 1 día
-├─ Microsoft Graph API (Outlook): 1 día
+├─ IMAP/SMTP genérico con TLS: 1 día (opcional)
+├─ Microsoft Graph API (Outlook): 1 día (opcional)
 └─ Sistema de colas y retry: 1 día
    Subtotal: 4 días
 
@@ -125,7 +124,7 @@
 └─ Previsualización y testing: 1 día
    Subtotal: 4 días
 
-📊 Monitoreo y Analytics
+📊 Monitoring y Analytics (opcional)
 ├─ Sistema de logs estructurados: 1 día
 ├─ Dashboard de métricas en tiempo real: 2 días
 ├─ Alertas y notificaciones: 1 día
@@ -146,8 +145,7 @@
    Subtotal: 10 días
 
 🚀 Deployment y DevOps
-├─ Configuración infraestructura (Docker/K8s): 2 días
-├─ CI/CD pipelines: 2 días
+├─ CI/CD pipelines: 4 días
 ├─ Configuración monitoreo (Grafana/Prometheus): 1 día
 ├─ Estrategia de rollback y DR: 1 día
 └─ Optimización de rendimiento: 1 día
