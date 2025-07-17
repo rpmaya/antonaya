@@ -1,5 +1,6 @@
-1️⃣ PORTAL ADMINISTRACIÓN DOCUMENTAL
+# 1️⃣ PORTAL ADMINISTRACIÓN DOCUMENTAL
 
+```
 📁 Interfaz de Gestión de Documentos
 ├─ UI/UX para carga de documentos (drag & drop, validaciones): 2 días
 ├─ Procesamiento y preview de múltiples formatos (PDF, DOCX, TXT): 1 día
@@ -21,7 +22,7 @@
 ├─ Auditoría de accesos y modificaciones: 1 día
 └─ Encriptación de documentos sensibles: 1 día
    Subtotal: 4 días
-
+```
 📊 TOTAL PORTAL ADMINISTRACIÓN: 15 días
 
 2️⃣ ORQUESTADOR N8N - WORKFLOWS CORE
