@@ -2,7 +2,7 @@
 
 # 📝 Índice
 
-1. Portal de Administración Documental
+1. Portal de Administración Documental [https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#1-portal-de-administraci%C3%B3n-documental]
 2. Orquestador n8n
 3. Base de Conocimiento y Vector DB
 4. Agentes IA
