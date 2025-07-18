@@ -1,50 +1,55 @@
 # 🏢 Sistema Inteligente de Gestión Documental para Administradores de Fincas
+
 ## 📋 Resumen Ejecutivo del Proyecto
+
 Sistema de última generación que automatiza la gestión documental y atención al cliente mediante Inteligencia Artificial, diseñado específicamente para administradores de fincas que gestionan múltiples comunidades de vecinos.
 
 ## 1️⃣ Portal de Administración Documental
+
 🎯 ¿Qué es?
 Una plataforma web intuitiva donde los empleados de la administración pueden gestionar toda la documentación de las diferentes comunidades de vecinos de forma centralizada y segura.
 
-💡 Beneficios para su negocio
+💡 Beneficios para el negocio
 
 - Gestión centralizada: Todos los documentos de todas las comunidades en un solo lugar
-- Acceso inmediato: Encuentre cualquier documento en segundos, no en horas
-- Trazabilidad completa: Sepa quién accedió o modificó cada documento
+- Acceso inmediato: Encuentra cualquier documento en segundos
+- Trazabilidad completa: Podrás saber quién accedió o modificó cada documento
 - Reducción de errores: Validación automática de documentos según su tipo
 
 🔧 Funcionalidades principales
 
-Carga masiva de documentos: Arrastre y suelte múltiples archivos (PDF, Word, Excel)
-Organización automática: El sistema clasifica y etiqueta los documentos automáticamente
-Búsqueda inteligente: Encuentre documentos por contenido, no solo por nombre
-Control de versiones: Mantenga historial de cambios en estatutos, actas, etc.
-Panel de control: Visualice estadísticas de uso por comunidad
+- Carga masiva de documentos: Arrastra y suelta múltiples archivos (PDF, Word, Excel)
+- Organización automática: El sistema clasifica y etiqueta los documentos automáticamente
+- Búsqueda inteligente: Encuentra documentos por contenido, no solo por nombre
+- Control de versiones: Mantiene historial de cambios en estatutos, actas, etc.
+- Panel de control: Visualiza estadísticas de uso por comunidad
 
 
 ## 2️⃣ Sistema de Orquestación Inteligente (n8n)
+
 🎯 ¿Qué es?
 El "cerebro" del sistema que coordina automáticamente todos los procesos, desde la recepción de emails hasta el envío de respuestas, sin intervención humana.
-💡 Beneficios para su negocio
 
-Automatización total: Los procesos que antes llevaban horas ahora se ejecutan en segundos
-Disponibilidad 24/7: El sistema nunca duerme, responde emails a cualquier hora
-Escalabilidad infinita: Gestione 10 o 1000 comunidades con el mismo esfuerzo
-Reducción de costes: Elimine tareas repetitivas y libere a su equipo
+💡 Beneficios para el negocio
+
+- Automatización total: Los procesos que antes llevaban horas ahora se ejecutan en segundos
+- Disponibilidad 24/7: El sistema responde emails a cualquier hora
+- Escalabilidad infinita: Gestiona 10 ó 1000 comunidades con el mismo esfuerzo
+- Reducción de costes: Elimina tareas repetitivas y libera al equipo
 
 🔧 Procesos automatizados
 
-Procesamiento de documentos:
+- Procesamiento de documentos:
 
-Recibe documento → Extrae contenido → Lo categoriza → Lo almacena → Notifica
-
-
-Gestión de emails:
-
-Recibe email → Identifica comunidad → Busca información → Genera respuesta → Envía
+* Recibe documento → Extrae contenido → Lo categoriza → Lo almacena → Notifica
 
 
-Actualizaciones automáticas: El sistema aprende y mejora con cada interacción
+- Gestión de emails:
+
+* Recibe email → Identifica comunidad → Busca información → Genera respuesta → Envía
+
+
+- Actualizaciones automáticas: El sistema aprende y mejora con cada interacción
 
 
 ## 3️⃣ Base de Conocimiento Inteligente
