@@ -1,6 +1,6 @@
 # 🛠️ Desglose Técnico de Tareas - Sistema Multi-Tenant IA
 
-## 📝 Índice
+# 📝 Índice
 
 1. Portal de Administración Documental
 2. Orquestador n8n
@@ -9,11 +9,11 @@
 5. Capa de Comunicación
 6. Testing, Deployment y Gestión
 
-## 1. Portal de Administración Documental
+# 1. Portal de Administración Documental
 
-📁 Interfaz de Gestión de Documentos
+## 📁 Interfaz de Gestión de Documentos
 
-UI/UX para carga de documentos (2 días)
+- UI/UX para carga de documentos (2 días)
 
 ```
 Tareas técnicas:
@@ -27,7 +27,7 @@ Tareas técnicas:
 Stack: React/Vue + TypeScript, react-dropzone, axios
 ```
 
-Procesamiento y preview de múltiples formatos (1 día)
+- Procesamiento y preview de múltiples formatos (1 día)
 
 ```
 Tareas técnicas:
@@ -38,4 +38,46 @@ Tareas técnicas:
 - Implementar caché de previews generados
 
 Stack: pdf.js, mammoth.js, sharp (backend), Redis
+```
+
+- Sistema de etiquetado y categorización automática (1 día)
+
+```
+Tareas técnicas:
+- Desarrollar algoritmo de detección de tipo de documento
+- Implementar extracción de metadatos (fecha, tipo, comunidad)
+- Crear sistema de tags con autocompletado
+- Desarrollar reglas de categorización basadas en contenido
+- Implementar ML básico para sugerencia de categorías
+
+Stack: TensorFlow.js, natural (NLP), PostgreSQL
+```
+
+- Interfaz de búsqueda y filtrado avanzado (1 día)
+
+```
+Tareas técnicas:
+- Implementar búsqueda full-text con PostgreSQL
+- Crear filtros dinámicos (fecha, tipo, comunidad, tags)
+- Desarrollar búsqueda con operadores booleanos
+- Implementar autocompletado con elasticsearch
+- Crear exportación de resultados de búsqueda
+
+Stack: PostgreSQL FTS, Elasticsearch, React Query
+```
+
+## 🏢 Gestión Multi-Tenant de Comunidades
+
+- CRUD completo de comunidades con metadatos (2 días)
+
+```
+Tareas técnicas:
+- Diseñar esquema de base de datos multi-tenant
+- Implementar API REST con endpoints CRUD
+- Crear validaciones de negocio (CIF único, email válido)
+- Desarrollar sistema de metadatos flexibles (JSONB)
+- Implementar soft delete y auditoría de cambios
+- Crear migraciones de base de datos versionadas
+
+Stack: Node.js/Express, TypeORM, PostgreSQL, Joi validation
 ```
