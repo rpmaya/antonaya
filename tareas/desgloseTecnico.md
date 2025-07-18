@@ -2,12 +2,12 @@
 
 # 📝 Índice
 
-1. Portal de Administración Documental [https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#1-portal-de-administraci%C3%B3n-documental]
-2. Orquestador n8n
-3. Base de Conocimiento y Vector DB
-4. Agentes IA
-5. Capa de Comunicación
-6. Testing, Deployment y Gestión
+1. [Portal de Administración Documental] (https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#1-portal-de-administraci%C3%B3n-documental)
+2. [Orquestador n8n] (https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#2-orquestador-n8n)
+3. [Base de Conocimiento y Vector DB] (https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#3-base-de-conocimiento-y-vector-db)
+4. [Agentes IA] (https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#4-agentes-ia)
+5. [Capa de Comunicación] (https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#5-capa-de-comunicaci%C3%B3n)
+6. [Testing, Deployment y Gestión] (https://github.com/rpmaya/antonaya/blob/main/tareas/desgloseTecnico.md#6-testing-deployment-y-gesti%C3%B3n)
 
 # 1. Portal de Administración Documental
 
@@ -988,7 +988,7 @@ Tareas técnicas:
 Tech: Chrome DevTools, Redis, query optimization
 ```
 
-## 📚 Documentación y Formación
+##  📚 Documentación y Formación
 - Documentación API (2 días)
 ```
 Tareas técnicas:
