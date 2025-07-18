@@ -54,73 +54,85 @@ El "cerebro" del sistema que coordina automáticamente todos los procesos, desde
 
 
 ## 3️⃣ Base de Conocimiento Inteligente
+
 🎯 ¿Qué es?
+
 Un almacén digital ultra-rápido que permite a la IA encontrar instantáneamente la información relevante entre miles de documentos.
+
 💡 Beneficios para su negocio
 
-Respuestas precisas: La IA siempre encuentra la información correcta
-Conocimiento compartido: Información general aplicable a todas las comunidades
-Privacidad garantizada: Cada comunidad tiene su espacio aislado
-Actualización en tiempo real: Los cambios se reflejan inmediatamente
+- Respuestas precisas: La IA siempre encuentra la información correcta
+- Conocimiento compartido: Información general aplicable a todas las comunidades
+- Privacidad garantizada: Cada comunidad tiene su espacio aislado
+- Actualización en tiempo real: Los cambios se reflejan inmediatamente
 
 🔧 Características técnicas simplificadas
 
-Búsqueda semántica: Encuentra documentos por significado, no solo palabras exactas
-Multi-comunidad: Cada comunidad tiene su propio "cajón" privado de información
-Deduplicación: Evita almacenar la misma información múltiples veces
-Escalabilidad: Capacidad para millones de documentos sin perder velocidad
+- Búsqueda semántica: Encuentra documentos por significado, no solo palabras exactas
+- Multi-comunidad: Cada comunidad tiene su propio "cajón" privado de información
+- Deduplicación: Evita almacenar la misma información múltiples veces
+- Escalabilidad: Capacidad para millones de documentos sin perder velocidad
 
 
 ## 4️⃣ Agentes de Inteligencia Artificial
+
 🎯 ¿Qué es?
-Asistentes virtuales especializados que entienden y responden consultas como lo haría su mejor empleado, pero disponibles 24/7.
+
+Asistentes virtuales especializados que entienden y responden consultas como lo haría un empleado (comunero), pero disponibles 24/7.
+
 💡 Beneficios para su negocio
 
-Respuestas profesionales: Mantienen el tono y estilo de su empresa
-Personalización por comunidad: Cada comunidad recibe respuestas adaptadas
-Precisión legal: Respuestas basadas en documentación oficial
-Aprendizaje continuo: Mejoran con cada interacción
+- Respuestas profesionales: Mantienen el tono y estilo de la empresa
+- Personalización por comunidad: Cada comunidad recibe respuestas adaptadas
+- Precisión legal: Respuestas basadas en documentación oficial
+- Aprendizaje continuo: Mejoran con cada interacción
 
 🔧 Capacidades del sistema
 
-Agente General: Responde sobre normativas y procedimientos comunes
-Agentes Específicos: Conocen los detalles particulares de cada comunidad
-Respuestas contextuales: Entienden el historial y situación de cada consulta
-Multi-idioma: Pueden responder en el idioma del vecino
+- Agente General: Responde sobre normativas y procedimientos comunes
+- Agentes Específicos: Conocen los detalles particulares de cada comunidad
+- Respuestas contextuales: Entienden el historial y situación de cada consulta
+- Multi-idioma: Pueden responder en el idioma del vecino
 
 
 ## 5️⃣ Sistema de Comunicación Automatizada
-🎯 ¿Qué es?
-La capa que gestiona toda la comunicación entrante y saliente, integrándose perfectamente con sus sistemas de email actuales.
-💡 Beneficios para su negocio
 
-Integración transparente: Funciona con Gmail, Outlook o cualquier sistema
-Respuestas instantáneas: Los vecinos reciben respuesta en minutos, no días
-Trazabilidad completa: Registro de todas las comunicaciones
-Plantillas inteligentes: Respuestas consistentes pero personalizadas
+🎯 ¿Qué es?
+
+La capa que gestiona toda la comunicación entrante y saliente, integrándose perfectamente con los sistemas de email actuales.
+
+💡 Beneficios para el negocio
+
+- Integración transparente: Funciona con Gmail, Outlook o cualquier sistema
+- Respuestas instantáneas: Los vecinos reciben respuesta en minutos
+- Trazabilidad completa: Registro de todas las comunicaciones
+- Plantillas inteligentes: Respuestas consistentes pero personalizadas
 
 🔧 Funcionalidades de comunicación
 
-Detección automática: Identifica de qué comunidad proviene cada email
-Respuestas personalizadas: Incluye información específica (próximas juntas, pagos)
-Gestión de adjuntos: Envía documentos relevantes automáticamente
-Métricas en tiempo real: Vea cuántos emails se procesan y su tiempo de respuesta
+- Detección automática: Identifica de qué comunidad proviene cada email
+- Respuestas personalizadas: Incluye información específica (próximas juntas, pagos)
+- Gestión de adjuntos: Envía documentos relevantes automáticamente
+- Métricas en tiempo real: Pordrás ver cuántos emails se procesan y su tiempo de respuesta
 
 
 ## 6️⃣ Testing, Deployment y Gestión del Proyecto
-🎯 ¿Qué es?
-El proceso riguroso que garantiza que el sistema funcione perfectamente antes de su lanzamiento y durante toda su vida útil.
-💡 Beneficios para su negocio
 
-Garantía de calidad: Sistema probado exhaustivamente antes de producción
-Implementación sin sorpresas: Despliegue planificado y sin interrupciones
-Formación completa: Su equipo sabrá aprovechar al máximo el sistema
-Soporte continuo: Acompañamiento durante y después de la implementación
+🎯 ¿Qué es?
+
+El proceso riguroso que garantiza que el sistema funcione perfectamente antes de su lanzamiento y durante toda su vida útil.
+
+💡 Beneficios para el negocio
+
+- Garantía de calidad: Sistema probado exhaustivamente antes de producción
+- Implementación sin sorpresas: Despliegue planificado y sin interrupciones
+- Formación completa: El equipo sabrá aprovechar al máximo el sistema
+- Soporte continuo: Acompañamiento durante y después de la implementación
 
 🔧 Entregables incluidos
 
-Pruebas exhaustivas: Simulación de miles de escenarios reales
-Documentación completa: Manuales de usuario y guías visuales
-Formación personalizada: Sesiones prácticas con su equipo
-Panel de métricas: Visualice el ROI y mejoras en tiempo real
+- Pruebas exhaustivas: Simulación de miles de escenarios reales
+- Documentación completa: Manuales de usuario y guías visuales
+- Formación personalizada: Sesiones prácticas con el equipo
+- Panel de métricas: Visualiza el ROI y mejoras en tiempo real
 
