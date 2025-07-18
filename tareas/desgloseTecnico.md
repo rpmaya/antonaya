@@ -81,3 +81,70 @@ Tareas técnicas:
 
 Stack: Node.js/Express, TypeORM, PostgreSQL, Joi validation
 ```
+
+- Sistema de validación de documentos por tipo (1 día)
+
+```
+Tareas técnicas:
+- Crear schemas de validación por tipo de documento
+- Implementar validador de estructura de actas
+- Desarrollar parser de presupuestos con validación de totales
+- Crear sistema de reglas configurables por comunidad
+- Implementar notificaciones de documentos no válidos
+
+Stack: Joi/Yup, JSONSchema, Bull Queue
+```
+
+- Gestión de versiones y control de cambios (1 día)
+  
+```
+Tareas técnicas:
+- Implementar versionado de documentos en DB
+- Crear sistema de diff para visualizar cambios
+- Desarrollar timeline de versiones
+- Implementar rollback a versiones anteriores
+- Crear sistema de aprobación de cambios
+
+Stack: PostgreSQL, diff-match-patch, React Timeline
+```
+
+- Dashboard analytics por comunidad (1 día)
+  
+ ```
+ Tareas técnicas:
+- Implementar agregaciones de datos en PostgreSQL
+- Crear visualizaciones con Chart.js/D3.js
+- Desarrollar métricas clave (documentos/mes, tipos más comunes)
+- Implementar exportación de reportes PDF
+- Crear sistema de alertas configurables
+
+Stack: Chart.js, D3.js, Puppeteer (PDF), WebSockets
+```
+
+- Importación masiva y migración de datos (1 día)
+
+```
+Tareas técnicas:
+- Desarrollar parser de CSV/Excel con validación
+- Implementar sistema de mapeo de campos
+- Crear jobs de procesamiento asíncrono
+- Desarrollar rollback en caso de error
+- Implementar progress tracking en tiempo real
+
+Stack: Papa Parse, ExcelJS, Bull Queue, Socket.io
+```
+
+## 🔐 Seguridad y Control de Acceso
+
+- Sistema de autenticación (1 día)
+
+```
+Tareas técnicas:
+- Implementar OAuth2 con Passport.js
+- Configurar JWT con refresh tokens
+- Desarrollar 2FA con TOTP
+- Implementar rate limiting en endpoints
+- Crear sistema de sesiones con Redis
+
+Stack: Passport.js, jsonwebtoken, speakeasy (2FA), Redis
+```
