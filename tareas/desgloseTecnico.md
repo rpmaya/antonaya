@@ -13,8 +13,8 @@
 
 📁 Interfaz de Gestión de Documentos
 
-### UI/UX para carga de documentos (2 días)
-
+UI/UX para carga de documentos (2 días)
+```
 Tareas técnicas:
 - Implementar componente drag & drop con react-dropzone
 - Crear validaciones client-side para tipos de archivo permitidos
@@ -24,5 +24,6 @@ Tareas técnicas:
 - Gestionar estados de error y retry en uploads fallidos
 
 Stack: React/Vue + TypeScript, react-dropzone, axios
+```
 
 ### Procesamiento y preview de múltiples formatos (1 día)
