@@ -5,12 +5,13 @@ Sistema de última generación que automatiza la gestión documental y atención
 ## 1️⃣ Portal de Administración Documental
 🎯 ¿Qué es?
 Una plataforma web intuitiva donde los empleados de la administración pueden gestionar toda la documentación de las diferentes comunidades de vecinos de forma centralizada y segura.
+
 💡 Beneficios para su negocio
 
-Gestión centralizada: Todos los documentos de todas las comunidades en un solo lugar
-Acceso inmediato: Encuentre cualquier documento en segundos, no en horas
-Trazabilidad completa: Sepa quién accedió o modificó cada documento
-Reducción de errores: Validación automática de documentos según su tipo
+- Gestión centralizada: Todos los documentos de todas las comunidades en un solo lugar
+- Acceso inmediato: Encuentre cualquier documento en segundos, no en horas
+- Trazabilidad completa: Sepa quién accedió o modificó cada documento
+- Reducción de errores: Validación automática de documentos según su tipo
 
 🔧 Funcionalidades principales
 
