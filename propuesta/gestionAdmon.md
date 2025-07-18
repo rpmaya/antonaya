@@ -28,6 +28,7 @@ Una plataforma web intuitiva donde los empleados de la administración pueden ge
 ## 2️⃣ Sistema de Orquestación Inteligente (n8n)
 
 🎯 ¿Qué es?
+
 El "cerebro" del sistema que coordina automáticamente todos los procesos, desde la recepción de emails hasta el envío de respuestas, sin intervención humana.
 
 💡 Beneficios para el negocio
@@ -41,12 +42,12 @@ El "cerebro" del sistema que coordina automáticamente todos los procesos, desde
 
 - Procesamiento de documentos:
 
-* Recibe documento → Extrae contenido → Lo categoriza → Lo almacena → Notifica
+  -  Recibe documento → Extrae contenido → Lo categoriza → Lo almacena → Notifica
 
 
 - Gestión de emails:
 
-* Recibe email → Identifica comunidad → Busca información → Genera respuesta → Envía
+  - Recibe email → Identifica comunidad → Busca información → Genera respuesta → Envía
 
 
 - Actualizaciones automáticas: El sistema aprende y mejora con cada interacción
