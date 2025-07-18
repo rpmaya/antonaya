@@ -24,7 +24,7 @@ Tareas técnicas:
 - Añadir preview de documentos antes de confirmar upload
 - Gestionar estados de error y retry en uploads fallidos
 
-Stack: React/Vue + TypeScript, react-dropzone, axios
+Stack: React/NextJS + TypeScript, react-dropzone, axios
 ```
 
 - Procesamiento y preview de múltiples formatos (1 día)
@@ -235,11 +235,11 @@ Nodes n8n: Function (algoritmos), SplitInBatches
 
 ```
 Tareas técnicas:
-- Integrar OpenAI Embeddings API
+- Integrar OpenAI o Gemini Embeddings API
 - Implementar fallback a modelo local (Sentence Transformers)
 - Crear batching para optimizar API calls
 - Desarrollar caché de embeddings
-- Implementar monitoreo de costos
+- Implementar monitor de costes
 
 Nodes n8n: OpenAI, Function, Redis
 ```
@@ -305,7 +305,7 @@ Tareas técnicas:
 - Implementar decision tree para routing
 - Crear reglas basadas en keywords
 - Desarrollar routing por horario/disponibilidad
-- Implementar escalado a humano si necesario
+- Implementar escalado a humano si fuese necesario
 - Crear métricas de routing
 
 Nodes n8n: Switch, IF, Router
@@ -736,18 +736,6 @@ Tareas técnicas:
 - Crear reconnection logic
 
 Tech: Nodemailer, imap-simple, connection pooling
-```
-
-- Microsoft Graph API (1 día)
-```
-Tareas técnicas:
-- Implementar autenticación Azure AD
-- Crear suscripciones a cambios
-- Desarrollar batch requests
-- Implementar delta queries
-- Crear webhook handlers
-
-Tech: Microsoft Graph SDK, Azure AD
 ```
 
 - Sistema de colas y retry (1 día)
