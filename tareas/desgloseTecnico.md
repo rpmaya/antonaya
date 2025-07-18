@@ -14,6 +14,7 @@
 📁 Interfaz de Gestión de Documentos
 
 UI/UX para carga de documentos (2 días)
+
 ```
 Tareas técnicas:
 - Implementar componente drag & drop con react-dropzone
@@ -27,6 +28,7 @@ Stack: React/Vue + TypeScript, react-dropzone, axios
 ```
 
 Procesamiento y preview de múltiples formatos (1 día)
+
 ```
 Tareas técnicas:
 - Integrar pdf.js para preview de PDFs en navegador
