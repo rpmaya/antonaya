@@ -26,4 +26,14 @@ Tareas técnicas:
 Stack: React/Vue + TypeScript, react-dropzone, axios
 ```
 
-### Procesamiento y preview de múltiples formatos (1 día)
+Procesamiento y preview de múltiples formatos (1 día)
+```
+Tareas técnicas:
+- Integrar pdf.js para preview de PDFs en navegador
+- Implementar conversión de DOCX a HTML con mammoth.js
+- Crear visor de imágenes con zoom y rotación
+- Desarrollar extractor de texto para indexación
+- Implementar caché de previews generados
+
+Stack: pdf.js, mammoth.js, sharp (backend), Redis
+```
