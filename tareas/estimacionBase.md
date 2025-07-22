@@ -21,7 +21,7 @@
 
 🔗 Integraciones y Conectores
 ├─ Integración Vector DB (Pinecone/Weaviate): 2 días
-├─ Conectores con LLMs (OpenAI, Claude, Gemini): 2 días
+├─ Conectores con LLMs (Gemini): 2 días
    Subtotal: 4 días
 
 📊 TOTAL ORQUESTADOR N8N: 20 días
@@ -32,16 +32,14 @@
 🗂️ Arquitectura Multi-Tenant
 ├─ Diseño de namespaces y estructura de datos: 2 días
 ├─ Sistema de particionado y sharding: 1 día
-├─ Políticas de retención y archivado: 1 día
-└─ Backup y recuperación: 1 día
-   Subtotal: 5 días
+   Subtotal: 3 días
 
 🔄 Pipeline de Procesamiento
 ├─ Carga inicial y migración de datos existentes: 2 días
-├─ Sistema de embeddings con múltiples modelos: 2 días
+├─ Sistema de embeddings: 1 días
 ├─ Indexación optimizada y búsqueda híbrida: 2 días
 └─ Sincronización y actualización continua: 1 día
-   Subtotal: 7 días
+   Subtotal: 6 días
 
 💾 Gestión de Metadata
 ├─ Store de metadata con PostgreSQL: 1 día
@@ -50,7 +48,7 @@
 └─ Cache distribuido para consultas frecuentes: 1 día
    Subtotal: 4 días
 
-📊 TOTAL BASE DE CONOCIMIENTO: 16 días
+📊 TOTAL BASE DE CONOCIMIENTO: 13 días
 ```
 
 # 3️⃣ AGENTES IA - SISTEMA INTELIGENTE
@@ -59,7 +57,7 @@
 ├─ Setup agente general con fallbacks: 2 días
 ├─ Sistema de contexto dinámico: 2 días
 ├─ Optimización de prompts base: 1 día
-└─ Gestión de tokens y costos: 1 día
+└─ Gestión de tokens y costes: 1 día
    Subtotal: 6 días
 
 🏘️ Agentes Especializados por Comunidad
@@ -69,14 +67,8 @@
 └─ A/B testing de respuestas: 1 día
    Subtotal: 6 días
 
-🎨 Personalización Avanzada
-├─ Editor de prompts con variables dinámicas: 2 días
-├─ Sistema de templates por tipo de consulta: 2 días
-├─ Tono y estilo adaptativo por comunidad: 1 día
-└─ Integración de conocimiento específico: 1 día
-   Subtotal: 6 días
 
-📊 TOTAL AGENTES IA: 18 días
+📊 TOTAL AGENTES IA: 12 días
 ```
 
 # 4️⃣ CAPA DE COMUNICACIÓN
@@ -84,9 +76,10 @@
 📬 Integración Email Multicanal
 ├─ Gmail API con OAuth2: 1 día
 └─ Sistema de colas y retry: 1 día
-   Subtotal: 2 días
+└─ Chatbot (Web): 3 días
+   Subtotal: 5 días
 
-📊 TOTAL COMUNICACIÓN: 2 días
+📊 TOTAL COMUNICACIÓN: 5 días
 ```
 
 # 5️⃣ TESTING, DEPLOYMENT Y GESTIÓN
@@ -95,16 +88,11 @@
 ├─ Tests unitarios componentes core: 2 días
 ├─ Tests de integración n8n workflows: 2 días
 ├─ Tests E2E multi-tenant: 3 días
-├─ Tests de carga y rendimiento: 2 días
-└─ Tests de seguridad: 1 día
-   Subtotal: 10 días
+   Subtotal: 7 días
 
 🚀 Deployment y DevOps
-├─ CI/CD pipelines: 4 días
-├─ Configuración monitoring (Grafana/Prometheus): 1 día
-├─ Estrategia de rollback y recuperación: 1 día
-└─ Optimización de rendimiento: 1 día
-   Subtotal: 7 días
+├─ CI/CD pipelines: 2 días
+   Subtotal: 2 días
 
 🤝 Gestión y Coordinación
 ├─ Reuniones de seguimiento (daily/weekly): 3 días
@@ -113,7 +101,7 @@
 └─ Documentación de proyecto: 1 día
    Subtotal: 7 días
 
-📊 TOTAL TESTING Y GESTIÓN: 25 días
+📊 TOTAL TESTING Y GESTIÓN: 16 días
 ```
 
 # 📊 RESUMEN
@@ -122,11 +110,11 @@
 ║                    RESUMEN POR MÓDULOS                    ║
 ╠═══════════════════════════════════════════════════════════╣
 ║ 1. Orquestador n8n                           20 días      ║
-║ 2. Base de Conocimiento                      16 días      ║
-║ 3. Agentes IA                                18 días      ║
-║ 4. Capa de Comunicación                       2 días      ║
-║ 5. Testing, Deployment y Gestión             25 días      ║
+║ 2. Base de Conocimiento                      13 días      ║
+║ 3. Agentes IA                                12 días      ║
+║ 4. Capa de Comunicación                       5 días      ║
+║ 5. Testing, Deployment y Gestión             16 días      ║
 ╠═══════════════════════════════════════════════════════════╣
-║ TOTAL DESARROLLO                             81 días      ║
+║ TOTAL DESARROLLO                             66 días      ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
