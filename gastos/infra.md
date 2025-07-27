@@ -35,3 +35,37 @@ Producción:
 - Application Load Balancer: €25/mes
 - Storage EBS 500GB: €50/mes
 ```
+
+Opción media (50-200 clientes)
+```
+Desarrollo:
+- t3.large: €70/mes
+- Storage 200GB: €20/mes
+
+Staging:
+- m5.xlarge (4 vCPU, 16GB RAM): €155/mes
+- Storage 500GB: €50/mes
+
+Producción:
+- m5.2xlarge (8 vCPU, 32GB RAM) x3: €930/mes
+- Auto Scaling Groups: incluido
+- ALB + WAF: €75/mes
+- Storage 1TB: €100/mes
+```
+
+Opción enterprise (200+ clientes)
+```
+Desarrollo:
+- m5.xlarge: €155/mes
+- Storage 500GB: €50/mes
+
+Staging:
+- m5.2xlarge: €310/mes
+- Storage 1TB: €100/mes
+
+Producción:
+- c5.4xlarge (16 vCPU, 32GB RAM) x4: €2,200/mes
+- Multi-AZ deployment: incluido
+- ALB + WAF + Shield: €150/mes
+- Storage 5TB: €500/mes
+```
