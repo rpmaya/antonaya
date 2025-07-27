@@ -273,7 +273,7 @@ Servicios IA:
 Email y Comunicación:
 - Amazon SES: €20/mes
 
-Monitoreo:
+Monitoring:
 - Grafana Cloud Free: €0
 - Logs básicos: €30/mes
 
@@ -301,7 +301,7 @@ Servicios IA:
 Email y Comunicación:
 - SendGrid Pro: €90/mes
 
-Monitoreo:
+Monitoring:
 - Datadog: €150/mes
 - Logs: €50/mes
 
@@ -330,7 +330,7 @@ Servicios IA:
 Email y Comunicación:
 - SendGrid Enterprise: €500/mes
 
-Monitoreo:
+Monitoring:
 - Datadog Enterprise: €500/mes
 - Full observability: €300/mes
 
