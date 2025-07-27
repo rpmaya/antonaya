@@ -313,7 +313,7 @@ TOTAL MENSUAL: €3,500
 TOTAL ANUAL: €42,000
 ```
 
-## Escenario 3: Enterprise (200+ clientes)
+## Escenario 3: Enterprise (200+ clientes)
 
 ```
 Infraestructura Cloud:
