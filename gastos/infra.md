@@ -136,7 +136,7 @@ Enterprise:
 - Soporte dedicado
 ```
 
-## OpenAI API
+## OpenAI API / Otros LLMs
 ```
 Estimación basada en volumen de emails:
 
