@@ -69,3 +69,41 @@ Producción:
 - ALB + WAF + Shield: €150/mes
 - Storage 5TB: €500/mes
 ```
+
+# 🗄️ Bases de Datos
+## PostgreSQL (RDS)
+
+Desarrollo:
+- db.t3.small (2GB RAM): €25/mes
+- Storage 100GB: €12/mes
+- Backups: €5/mes
+
+Staging:
+- db.t3.medium (4GB RAM): €50/mes
+- Storage 200GB: €24/mes
+- Backups: €10/mes
+
+Producción (Recomendado):
+- db.m5.xlarge (16GB RAM) Multi-AZ: €350/mes
+- Storage 1TB SSD: €120/mes
+- Automated backups: €30/mes
+- Read replicas x1: €175/mes
+
+Producción (Enterprise):
+- db.m5.2xlarge (32GB RAM) Multi-AZ: €700/mes
+- Storage 5TB SSD: €600/mes
+- Automated backups: €150/mes
+- Read replicas x2: €700/mes
+
+## Redis (ElastiCache)
+
+Desarrollo:
+- cache.t3.micro: €15/mes
+
+Staging:
+- cache.t3.small: €25/mes
+
+Producción:
+- cache.m5.large (Cluster mode): €150/mes
+- Multi-AZ: +€75/mes
+- Backups: €20/mes
