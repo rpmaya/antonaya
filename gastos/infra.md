@@ -259,6 +259,7 @@ Security Tools:
 # 📊 Desglose por Escenarios
 
 ## Escenario 1: Startup (10-50 clientes)
+
 ```
 Infraestructura Cloud:
 - Servidores: €350/mes
@@ -285,7 +286,8 @@ TOTAL MENSUAL: €865
 TOTAL ANUAL: €10,380
 ```
 
-## Escenario 2: Mediana Empresa (50-200 clientes)
+## Escenario 2: Mediana Empresa (50-200 clientes)
+
 ```
 Infraestructura Cloud:
 - Servidores: €1,150/mes
