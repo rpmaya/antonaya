@@ -137,9 +137,8 @@ Enterprise:
 ```
 
 ## OpenAI API / Otros LLMs
-```
 Estimación basada en volumen de emails:
-
+```
 Bajo volumen (100 emails/día):
 - GPT-4: ~€150/mes
 - Embeddings: ~€10/mes
@@ -315,6 +314,7 @@ TOTAL ANUAL: €42,000
 ```
 
 ## Escenario 3: Enterprise (200+ clientes)
+
 ```
 Infraestructura Cloud:
 - Servidores: €2,850/mes
