@@ -99,7 +99,7 @@
 │                                       │ • Normas específicas        │      │
 │  ┌──────────────────────────┐         │ • Proveedores               │      │
 │  │   ALMACENAMIENTO         │         └─────────────────────────────┘      │
-│  │   S3 / Cloud Storage     │                                              │
+│  │   Cloud Storage (Drive)  │                                              │
 │  ├──────────────────────────┤         ┌─────────────────────────────┐      │
 │  │ • PDFs recibos           │         │   CACHE (Redis)             │      │
 │  │ • PDFs facturas          │         ├─────────────────────────────┤      │
@@ -183,7 +183,7 @@ La arquitectura del sistema se compone de cinco capas principales que trabajan e
   - Namespace general: FAQs, normativas, leyes
   - Namespace por comunidad: Estatutos, actas, normas específicas
 
-- **Cloud Storage (S3):** Almacenamiento de documentos
+- **Cloud Storage (Drive o S3):** Almacenamiento de documentos
   - PDFs de recibos y facturas
   - Actas y documentos administrativos
   - Archivos Excel de trabajo
