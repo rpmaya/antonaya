@@ -153,7 +153,7 @@ La arquitectura del sistema se compone de cinco capas principales que trabajan e
 **Componentes:**
 - **Email (Gmail):** Canal principal de comunicación asíncrona
 - **Chatbot Web:** Interfaz conversacional en tiempo real
-- **WhatsApp (Futuro):** Comunicación móvil directa
+- **WhatsApp (o Telegram):** Comunicación móvil directa
 - **Google Forms:** Recopilación estructurada de información
 
 #### 2. Capa de Orquestación (n8n)
@@ -179,7 +179,7 @@ La arquitectura del sistema se compone de cinco capas principales que trabajan e
   - Históricos y configuraciones
   - Metadatos de documentos
 
-- **Vector Database (Pinecone/Weaviate):** Almacenamiento de conocimiento para IA
+- **Vector Database (Pinecone):** Almacenamiento de conocimiento para IA
   - Namespace general: FAQs, normativas, leyes
   - Namespace por comunidad: Estatutos, actas, normas específicas
 
