@@ -36,7 +36,6 @@
     - [Versión Intermedia (Recomendada)](#versión-intermedia-recomendada)
       - [Roadmap por Fases](#roadmap-por-fases)
   - [Resumen Ejecutivo](#resumen-ejecutivo)
-    - [Recomendación](#recomendación)
 
 ---
 
@@ -466,11 +465,3 @@ Este documento presenta la planificación técnica para el desarrollo de un sist
 - **Sistema multi-tenant** con base de conocimiento vectorial
 - **Integraciones** con proveedores y sistemas externos
 - **Portal web** con chatbot integrado
-
-### Recomendación
-
-Se recomienda la **Versión Intermedia** con desarrollo en dos fases:
-- Permite validar el MVP antes de invertir en funcionalidades avanzadas
-- Reduce riesgo del proyecto
-- Facilita ajustes basados en feedback real
-- Desarrollo incremental y más controlado
