@@ -68,9 +68,9 @@
 │  │  • Routing a workflow específico                               │         │
 │  └────────────────────────────────┬───────────────────────────────┘         │
 │                                   │                                         │
-│  ┌───────────────┬────────────────┼────────────────┬────────────────┐       │
-│  │               │                │                │                │       │
-│  ▼               ▼                ▼                ▼                ▼       │
+│  ┌───────────────┬────────────────┼────────────┬────────────────┐           │
+│  │               │                │            │                │           │
+│  ▼               ▼                ▼            ▼                ▼           │
 │ ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐          │
 │ │Workflow │  │Workflow │  │ Workflow │  │ Workflow │  │ Workflow │          │
 │ │Recibos  │  │Docs     │  │Servicios │  │Alertas   │  │Urgencias │          │
@@ -85,7 +85,7 @@
 │                                                                            │
 │  ┌──────────────────────────┐         ┌─────────────────────────────┐      │
 │  │   BASE DE DATOS          │         │   VECTOR DATABASE           │      │
-│  │   PostgreSQL             │         │   (Pinecone/Weaviate)       │      │
+│  │   PostgreSQL             │         │   (Pinecone)                │      │
 │  ├──────────────────────────┤         ├─────────────────────────────┤      │
 │  │ • Comunidades            │         │ Namespace: general          │      │
 │  │ • Propietarios           │         │ • Normativas comunes        │      │
