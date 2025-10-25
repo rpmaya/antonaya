@@ -14,7 +14,21 @@
     - [C. Sistema de Gestión Documental Específico](#c-sistema-de-gestión-documental-específico)
     - [D. Sistema de Notificaciones y Alertas](#d-sistema-de-notificaciones-y-alertas)
   - [Distribución de Tareas por Equipo](#distribución-de-tareas-por-equipo)
+    - [Equipo Backend (2 desarrolladores)](#equipo-backend-2-desarrolladores)
+      - [Developer Backend 1 - Especialista en Integraciones](#developer-backend-1---especialista-en-integraciones)
+      - [Developer Backend 2 - Especialista en IA/n8n](#developer-backend-2---especialista-en-ian8n)
+    - [Equipo Frontend/Fullstack (1 desarrollador)](#equipo-frontendfullstack-1-desarrollador)
+      - [Developer Frontend - Especialista UX/UI](#developer-frontend---especialista-uxui)
+    - [DevOps/QA (compartido - 30%)](#devopsqa-compartido---30)
   - [Estimaciones de Proyecto](#estimaciones-de-proyecto)
+    - [Versión MVP (Mínimo Viable)](#versión-mvp-mínimo-viable)
+      - [Funcionalidades MVP](#funcionalidades-mvp)
+    - [Versión Completa](#versión-completa)
+      - [Funcionalidades Adicionales vs MVP](#funcionalidades-adicionales-vs-mvp)
+    - [Versión Intermedia (Recomendada)](#versión-intermedia-recomendada)
+      - [Roadmap por Fases](#roadmap-por-fases)
+  - [Resumen Ejecutivo](#resumen-ejecutivo)
+    - [Recomendación](#recomendación)
 
 ---
 
@@ -166,7 +180,7 @@
 
 **2. Deployment** (5 días)
 - CI/CD pipelines: 2 días
-- Infraestructura Docker/K8s: 2 días
+- Infraestructura: 2 días
 - Monitoring: 1 día
 
 **3. Gestión Proyecto** (7 días)
