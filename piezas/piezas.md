@@ -194,15 +194,6 @@
 | Con 2 devs en paralelo | ~35 días |
 | Calendario con margen 25% | ~45 días (2 meses) |
 
-#### Costes Estimados MVP
-
-| Concepto | Coste |
-|:---------|------:|
-| Desarrollo (2 devs × €400/día) | €24,000 |
-| Infraestructura (2 meses) | €1,800 |
-| APIs IA (2 meses MVP) | €500 |
-| **TOTAL MVP** | **€26,300** |
-
 #### Funcionalidades MVP
 
 - ✅ Respuestas automáticas FAQs básicas
@@ -228,15 +219,6 @@
 | Con 3 devs en paralelo | ~50 días |
 | Calendario con margen 25% | ~65 días (3 meses) |
 
-#### Costes Estimados Versión Completa
-
-| Concepto | Coste |
-|:---------|------:|
-| Desarrollo (3 devs) | €48,000 |
-| Infraestructura (3 meses) | €3,200 |
-| APIs IA (3 meses producción) | €2,500 |
-| **TOTAL PROYECTO COMPLETO** | **€53,700** |
-
 #### Funcionalidades Adicionales vs MVP
 
 - ✅ Portal de administración completo
@@ -251,11 +233,11 @@
 
 ### Versión Intermedia (Recomendada)
 
-| Fase | Duración | Coste |
-|:-----|:--------:|------:|
-| Fase 1: MVP | 2 meses | €26,300 |
-| Fase 2: Expansión | 1.5 meses | €18,000 |
-| **TOTAL** | **3.5 meses** | **€44,300** |
+| Fase | Duración |
+|:-----|:--------:|
+| Fase 1: MVP | 2 meses |
+| Fase 2: Expansión | 1.5 meses |
+| **TOTAL** | **3.5 meses** |
 
 #### Roadmap por Fases
 
@@ -287,6 +269,6 @@ Este documento presenta la planificación técnica para el desarrollo de un sist
 
 Se recomienda la **Versión Intermedia** con desarrollo en dos fases:
 - Permite validar el MVP antes de invertir en funcionalidades avanzadas
-- Reduce riesgo financiero
+- Reduce riesgo del proyecto
 - Facilita ajustes basados en feedback real
-- Mejor relación coste-beneficio
+- Desarrollo incremental y más controlado
