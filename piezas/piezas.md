@@ -6,23 +6,37 @@
 
 ## Tabla de Contenidos
 
-- [Arquitectura Técnica](#arquitectura-técnica)
-  - [Diagrama de Arquitectura](#diagrama-de-arquitectura)
-  - [Descripción de Capas](#descripción-de-capas)
-- [Componentes del Sistema](#componentes-del-sistema)
-  - [Sistemas de Gestión de Datos](#a-sistemas-de-gestión-de-datos)
-  - [Formularios Automatizados](#b-sistema-de-formularios-automatizados)
-  - [Gestión Documental](#c-sistema-de-gestión-documental-específico)
-  - [Notificaciones y Alertas](#d-sistema-de-notificaciones-y-alertas)
-- [Distribución de Tareas por Equipo](#distribución-de-tareas-por-equipo)
-  - [Equipo Backend](#equipo-backend-2-desarrolladores)
-  - [Equipo Frontend/Fullstack](#equipo-frontendfullstack-1-desarrollador)
-  - [DevOps/QA](#devopsqa-compartido---30)
-- [Estimaciones de Proyecto](#estimaciones-de-proyecto)
-  - [Versión MVP](#versión-mvp-mínimo-viable)
-  - [Versión Completa](#versión-completa)
-  - [Versión Intermedia](#versión-intermedia-recomendada)
-- [Resumen Ejecutivo](#resumen-ejecutivo)
+- [Sistema de Gestión Inteligente para Comunidades](#sistema-de-gestión-inteligente-para-comunidades)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Arquitectura Técnica](#arquitectura-técnica)
+    - [Diagrama de Arquitectura](#diagrama-de-arquitectura)
+    - [Descripción de Capas](#descripción-de-capas)
+      - [1. Capa de Interacción con Usuario](#1-capa-de-interacción-con-usuario)
+      - [2. Capa de Orquestación (n8n)](#2-capa-de-orquestación-n8n)
+      - [3. Capa de Datos y Conocimiento](#3-capa-de-datos-y-conocimiento)
+      - [4. Capa de Inteligencia Artificial](#4-capa-de-inteligencia-artificial)
+      - [5. Capa de Integraciones Externas](#5-capa-de-integraciones-externas)
+  - [Componentes del Sistema](#componentes-del-sistema)
+    - [A. Sistemas de Gestión de Datos](#a-sistemas-de-gestión-de-datos)
+    - [B. Sistema de Formularios Automatizados](#b-sistema-de-formularios-automatizados)
+    - [C. Sistema de Gestión Documental Específico](#c-sistema-de-gestión-documental-específico)
+    - [D. Sistema de Notificaciones y Alertas](#d-sistema-de-notificaciones-y-alertas)
+  - [Distribución de Tareas por Equipo](#distribución-de-tareas-por-equipo)
+    - [Equipo Backend (2 desarrolladores)](#equipo-backend-2-desarrolladores)
+      - [Developer Backend 1 - Especialista en Integraciones](#developer-backend-1---especialista-en-integraciones)
+      - [Developer Backend 2 - Especialista en IA/n8n](#developer-backend-2---especialista-en-ian8n)
+    - [Equipo Frontend/Fullstack (1 desarrollador)](#equipo-frontendfullstack-1-desarrollador)
+      - [Developer Frontend - Especialista UX/UI](#developer-frontend---especialista-uxui)
+    - [DevOps/QA (compartido - 30%)](#devopsqa-compartido---30)
+  - [Estimaciones de Proyecto](#estimaciones-de-proyecto)
+    - [Versión MVP (Mínimo Viable)](#versión-mvp-mínimo-viable)
+      - [Funcionalidades MVP](#funcionalidades-mvp)
+    - [Versión Completa](#versión-completa)
+      - [Funcionalidades Adicionales vs MVP](#funcionalidades-adicionales-vs-mvp)
+    - [Versión Intermedia (Recomendada)](#versión-intermedia-recomendada)
+      - [Roadmap por Fases](#roadmap-por-fases)
+  - [Resumen Ejecutivo](#resumen-ejecutivo)
+    - [Recomendación](#recomendación)
 
 ---
 
@@ -35,19 +49,19 @@
 │                         CAPA DE INTERACCIÓN CON USUARIO                     │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │
-│  │   Email      │  │   Chatbot    │  │  WhatsApp    │  │  Formularios │   │
-│  │   (Gmail)    │  │    Web       │  │  (Futuro)    │  │   Google     │   │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘   │
-│         │                 │                 │                 │            │
-└─────────┼─────────────────┼─────────────────┼─────────────────┼────────────┘
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │   Email      │  │   Chatbot    │  │  WhatsApp    │  │  Formularios │     │
+│  │   (Gmail)    │  │    Web       │  │  (Futuro)    │  │   Google     │     │
+│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘     │
+│         │                 │                 │                 │             │
+└─────────┼─────────────────┼─────────────────┼─────────────────┼─────────────┘
           │                 │                 │                 │
           └─────────────────┴─────────────────┴─────────────────┘
                                      │
-┌────────────────────────────────────┼─────────────────────────────────────────┐
+┌────────────────────────────────────┼────────────────────────────────────────┐
 │                         CAPA DE ORQUESTACIÓN (N8N)                          │
-├────────────────────────────────────┼─────────────────────────────────────────┤
-│                                    │                                         │
+├────────────────────────────────────┼────────────────────────────────────────┤
+│                                    │                                        │
 │  ┌────────────────────────────────▼───────────────────────────────┐         │
 │  │           ROUTER INTELIGENTE DE CONSULTAS                      │         │
 │  │  • Clasificación de intención                                  │         │
@@ -58,18 +72,18 @@
 │  ┌───────────────┬────────────────┼────────────────┬────────────────┐       │
 │  │               │                │                │                │       │
 │  ▼               ▼                ▼                ▼                ▼       │
-│ ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
-│ │Workflow │  │Workflow │  │ Workflow │  │ Workflow │  │ Workflow │       │
-│ │Recibos  │  │Docs     │  │Servicios │  │Alertas   │  │Urgencias │       │
-│ └────┬────┘  └────┬────┘  └─────┬────┘  └────┬─────┘  └────┬─────┘       │
-│      │            │             │            │             │              │
-└──────┼────────────┼─────────────┼────────────┼─────────────┼──────────────┘
+│ ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐          │
+│ │Workflow │  │Workflow │  │ Workflow │  │ Workflow │  │ Workflow │          │
+│ │Recibos  │  │Docs     │  │Servicios │  │Alertas   │  │Urgencias │          │
+│ └────┬────┘  └────┬────┘  └─────┬────┘  └────┬─────┘  └────┬─────┘          │
+│      │            │             │            │             │                │
+└──────┼────────────┼─────────────┼────────────┼─────────────┼────────────────┘
        │            │             │            │             │
        ▼            ▼             ▼            ▼             ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CAPA DE DATOS Y CONOCIMIENTO                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
+┌────────────────────────────────────────────────────────────────────────────┐
+│                    CAPA DE DATOS Y CONOCIMIENTO                            │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
 │  ┌──────────────────────────┐         ┌─────────────────────────────┐      │
 │  │   BASE DE DATOS          │         │   VECTOR DATABASE           │      │
 │  │   PostgreSQL             │         │   (Pinecone/Weaviate)       │      │
@@ -93,8 +107,8 @@
 │  │ • Documentos comunidad   │         │ • Sesiones chat             │      │
 │  │ • Archivos Excel         │         │ • Tokens autenticación      │      │
 │  └──────────────────────────┘         └─────────────────────────────┘      │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
                                        │
                                        ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -103,15 +117,15 @@
 │                                                                             │
 │  ┌────────────────────────────────────────────────────────────────┐         │
 │  │                    AGENTE IA PRINCIPAL                         │         │
-│  │  • LLM: Gemini Pro (primario) / GPT-4 (fallback)              │         │
+│  │  • LLM: Gemini Pro (primario) / GPT-4 (fallback)               │         │
 │  │  • RAG: Retrieval Augmented Generation                         │         │
 │  │  • Memory: Conversational context                              │         │
 │  └────────────────────────────────────────────────────────────────┘         │
 │                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐            │
-│  │ Clasificador    │  │ Extractor       │  │ Validador       │            │
-│  │ Intenciones     │  │ Entidades       │  │ Respuestas      │            │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘            │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐              │
+│  │ Clasificador    │  │ Extractor       │  │ Validador       │              │
+│  │ Intenciones     │  │ Entidades       │  │ Respuestas      │              │
+│  └─────────────────┘  └─────────────────┘  └─────────────────┘              │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
                                        │
@@ -120,10 +134,10 @@
 │                    CAPA DE INTEGRACIONES EXTERNAS                           │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │
-│  │   Google     │  │   Seguros    │  │  Proveedores │  │   SMTP/API   │   │
-│  │   Forms      │  │   APIs       │  │   Servicios  │  │   Email      │   │
-│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘   │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │   Google     │  │   Seguros    │  │  Proveedores │  │   SMTP/API   │     │
+│  │   Forms      │  │   APIs       │  │   Servicios  │  │   Email      │     │
+│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘     │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
