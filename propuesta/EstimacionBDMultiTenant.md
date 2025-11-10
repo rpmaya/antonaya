@@ -39,7 +39,6 @@ fincas
   - tenant_id (uuid, FK)
   - nombre (text)
   - ubicacion (text)
-  - hectareas (numeric)
   - metadata (jsonb)
   - created_at (timestamp)
 
@@ -229,7 +228,7 @@ RETURNS TABLE (
 ```
 
 **Tareas:**
-- Crear FastAPI o Flask app
+- Crear FastAPI o (express en caso de usar NodeJS)
 - Implementar autenticación y validación tenant
 - Documentar endpoints para equipo n8n
 - Testing de integración
@@ -284,10 +283,10 @@ RETURNS TABLE (
 
 ### Decisiones Técnicas Críticas
 
-1. **Modelo de Embeddings:** ¿OpenAI, Cohere, o modelo local?
+1. **Modelo de Embeddings:** ¿OpenAI, Gemini, Cohere, ...?
    - OpenAI ada-002: Más caro pero probado
    - Cohere: Buen balance costo/performance
-   - Modelo local (sentence-transformers): Gratis pero requiere infraestructura
+   - Gemini ¿?
 
 2. **Estrategia de Chunking:** Dependerá del tipo de documentos
    - Facturas: chunks pequeños (200-300 tokens)
